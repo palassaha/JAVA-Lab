@@ -1,35 +1,31 @@
-// Create an class Student with the following
-// Data member:
+// Create an class Student with the following 
+// Data member: 
 // a. roll: int
-// Methods:
-
-// a. setRoll(int) //take input
-
-// Department of Computer Science and
-// Engineering
-// RCC Institute of Information Technology
-// Canal South Road, Kolkata - 700015
-
+// Methods: 
+// a. setRoll(int) //take input 
 // b. getRoll(): int //display data member
+
 // Create a subclass Test and add the following details:
-// Data members:
-// a. marks of subject1 (sub1):double
-// b. marks of subject2 (sub2):double
-// Methods:
-// a. setMarks(double, double)
+// Data members: 
+// a. marks of subject1 (sub1):double b. marks of subject2 (sub2):double
+// Methods: 
+// a. setMarks(double, double) 
 // b. getMarks() to display marks of two subjects
+
 // Create interface Attendance with the following details:
-// Data member:
+// Data member: 
 // a. Atten: int
-// Method: getAttendance()
+// Method: 
+// getAttendance()
+
 // Create a class Result which extends Test class and implements Attendance
 // with the following details:
-// Data member:
-// a. total: double
-// Methods:
+// Data member: a. total: double
+// Methods: 
 // a. getAttendance() //implements interface (display atten)
 // b. getTotal() //sub1+sub2+atten
 // c. display()
+
 // Create object of Result class and call the methods.
 
 class Student {
