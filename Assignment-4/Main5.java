@@ -1,3 +1,8 @@
+// Create interface Speaker with method: speak(): void
+// Create subclass Lecturer of Speaker with implement the interface Speaker.
+// Create subclass Politician of Speaker with implement the interface Speaker.
+// Create reference variable of Speaker and call the methods of all sub classes.
+
 interface Speaker {
     void speak();
 }

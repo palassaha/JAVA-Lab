@@ -1,3 +1,16 @@
+// Create an abstract class Shape with the following
+// Methods 
+// calculateArea():void
+
+// Create a subclass Circle and add the following details:
+// Data member:
+// a. radius: int
+// Method:
+// a. calculateArea()
+
+// Use appropriate construct to take a input
+// Create object of Circle class and call the methods.
+
 import java.util.*;
 
 abstract class Shape {
