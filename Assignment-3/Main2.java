@@ -18,6 +18,44 @@
 // appropriate accessor and mutator methods for the class. Demonstrate the
 // classes by writing a program that uses a ProductionWorker object.
 
+class Employee {
+    private String empName;
+    private String empNo;
+    private String hireDate;
+
+    public Employee(String empName, String empNo, String hireDate) {
+        this.empName = empName;
+        this.empNo = empNo;
+        this.hireDate = hireDate;
+    }
+
+    public void showEmployeeDetails() {
+        System.out.println("Employee Name: " + empName);
+        System.out.println("Employee Number: " + empNo);
+        System.out.println("Hire Date: " + hireDate);
+    }
+}
+
+class ProductionWorker extends Employee {
+    private int shift;
+    private double hourlyPayRate;
+
+    public ProductionWorker(String empName, String empNo, String hireDate, int shift, double hourlyPayRate) {
+        super(empName, empNo, hireDate);
+        this.shift = shift;
+        this.hourlyPayRate = hourlyPayRate;
+    }
+
+    public void showProductionWorkerDetails() {
+        showEmployeeDetails();
+        System.out.println("Shift: " + (shift == 1 ? "Day" : "Night"));
+        System.out.println("Hourly Pay Rate: Rs." + hourlyPayRate);
+    }
+}
+
 public class Main2 {
-    
+    public static void main(String[] args) {
+        ProductionWorker worker = new ProductionWorker("Dev", "4560", "2020-05-10", 1, 1000);
+        worker.showProductionWorkerDetails();
+    }
 }
