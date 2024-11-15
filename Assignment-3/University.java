@@ -71,7 +71,7 @@ class Department extends College {
     }
 }
 
-public class Main {
+public class University {
     public static void main(String[] args) {
         College college = new College("RCCIIT", "KOLKATA");
         college.showDetails();
@@ -85,4 +85,3 @@ public class Main {
         dept.showDepartmentDetails();
     }
 }
-
