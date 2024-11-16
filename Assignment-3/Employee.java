@@ -8,6 +8,40 @@
 // mutator methods for the class. Demonstrate the class by writing a program
 // that uses a ShiftSupervisor object.
 
+class Emp{
+    public String name;
+    public String empNumber;
+    public String hiredate;
+
+    public Emp(String name, String empNumber, String hiredate){
+        this.name = name;
+        this.empNumber = empNumber;
+        this.hiredate = hiredate;
+    }
+}
+
+class ShiftSupervisor extends Emp{
+    private double annualSalary;
+    private double annualProductionBonus;
+
+    public ShiftSupervisor(String name, String empNumber, String hiredate, double annualSalary, double annualProductionBonus){
+        super(name, empNumber, hiredate);
+        this.annualSalary = annualSalary;
+        this.annualProductionBonus = annualProductionBonus;
+    }
+
+    public void display(){
+        System.out.println("Name: " + name);
+        System.out.println("Employee Number: " + empNumber);
+        System.out.println("Hire Date: " + hiredate);
+        System.out.println("Annual Salary: " + annualSalary);
+        System.out.println("Annual Production Bonus: " + annualProductionBonus);
+    }
+}
+
 public class Employee {
-    
+    public static void main(String[] args) {
+        ShiftSupervisor supervisor = new ShiftSupervisor("Roy", "12345", "23-05-2009", 600000, 50000);
+        supervisor.display();
+    }
 }
