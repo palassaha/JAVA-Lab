@@ -9,6 +9,10 @@
 // class. Demonstrate the class by writing a program that uses a TeamLeader
 // object.
 
+class PW{
+    
+}
+
 public class ProductionWorker {
     
 }
