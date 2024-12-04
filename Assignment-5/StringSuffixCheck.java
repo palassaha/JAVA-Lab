@@ -1,0 +1,1 @@
+// Write a Java program to input two Strings and check whether the second String is the suffix of the first or vice-versa.
