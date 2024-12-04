@@ -1,0 +1,1 @@
+// Write a Java program to check whether a String contains characters or digits or both.
