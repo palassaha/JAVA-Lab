@@ -46,7 +46,6 @@ public class SortWordsInSentence {
         for (int i=0; i<count; i++) {
             System.out.println(words[i]);
         }
-
         scanner.close();
     }
 }
